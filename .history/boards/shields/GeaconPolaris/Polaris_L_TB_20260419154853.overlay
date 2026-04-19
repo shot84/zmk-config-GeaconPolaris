@@ -89,5 +89,5 @@
 &scrollsnipe_runtime_input_processor_l {
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
-        // xy-to-scroll-enabled;
+        xy-to-scroll-enabled;
 };
