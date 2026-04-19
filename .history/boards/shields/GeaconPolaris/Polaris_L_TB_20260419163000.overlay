@@ -17,7 +17,7 @@
         scrollsnipe {
             layers = <6>;
             input-processors = <&scrollsnipe_runtime_input_processor_l>,
-                               // <&zip_xy_to_scroll_mapper>;
+                               <&zip_xy_to_scroll_mapper>;
         };
     };
     
