@@ -59,7 +59,7 @@
             input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>,
                                <&mouse_runtime_input_processor>,
                                <&zip_keybind_keys>;
-            // process-next;
+            process-next;
         };
         
         arrow-prevent-move {
