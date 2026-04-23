@@ -311,7 +311,7 @@ layers:
   - Ctl+Alt+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HASH
+  - {t: HASH, h: LSHIFT}
   - PLUS
   - '!'
   - QUESTION
