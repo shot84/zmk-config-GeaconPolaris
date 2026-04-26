@@ -41,7 +41,7 @@ layers:
   - {t: LANGUAGE 2, h: LGUI}
   - {t: SPACE, h: SCROLL}
   - {t: LANGUAGE 1, h: Fnc}
-  - {t: BACKSPACE, h: Fnc}
+  - BACKSPACE
   - {t: ENTER, h: Num}
   - {t: Gui+SPACE, h: Num}
   - LEFT
