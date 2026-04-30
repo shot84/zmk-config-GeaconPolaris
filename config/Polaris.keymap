@@ -69,11 +69,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp LG(SEMICOLON)  &trans  &kp F2     &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp F4                 &kp F1            &kp F10            &trans         &trans                &trans          &trans
-&trans             &trans  &trans     &trans            &trans             &kp SEMICOLON          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans                &trans          &trans
-&trans             &trans  &trans     &trans            &trans             &kp BACKSLASH          &kp LESS_THAN     &kp GREATER_THAN   &kp LG(LS(D))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))
-&trans             &trans  &kp LALT                     &kp EQUAL          &trans                 &kp DELETE        &kp ENTER          &kp BKSP       &trans                &trans          &trans
-&kp LEFT           &kp UP  &kp SPACE  &kp DOWN          &kp RIGHT                                 &trans            &trans             &trans
+&kp LG(SEMICOLON)  &trans  &kp F2     &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp F4                    &kp F1            &kp F10            &trans         &trans                &trans          &trans
+&trans             &trans  &trans     &trans            &trans             &kp SEMICOLON             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans                &trans          &trans
+&trans             &trans  &trans     &trans            &trans             &kp BACKSLASH             &kp LESS_THAN     &kp GREATER_THAN   &kp LG(LS(D))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))
+&trans             &trans  &kp LALT                     &kp EQUAL          &lt 1 LANGUAGE_1          &kp DELETE        &kp ENTER          &kp BKSP       &trans                &trans          &trans
+&kp LEFT           &kp UP  &kp SPACE  &kp DOWN          &kp RIGHT                                    &trans            &trans             &trans
 &trans             &trans
             >;
 
@@ -83,11 +83,11 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans           &kp TAB           &kp N7     &kp N8        &kp N9         &kp MINUS              &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
-&trans           &kp N0            &kp N4     &kp N5        &kp N6         &kp COLON              &kp LG(RBKT)  &kp AT_SIGN    &kp UP_ARROW      &kp GRAVE     &trans             &trans
-&mt LSHFT SPACE  &mt LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LBKT)  &kp LEFT       &kp DOWN          &kp RIGHT     &trans
-&trans           &kp LSHFT         &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans        &trans         &trans            &trans        &trans             &trans
-&kp LC(LEFT)     &kp LC(UP)        &kp SPACE  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans        &trans         &trans
+&trans           &kp TAB           &kp N7     &kp N8        &kp N9         &kp MINUS              &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
+&trans           &kp N0            &kp N4     &kp N5        &kp N6         &kp COLON              &kp LG(RIGHT_BRACKET)  &kp AT_SIGN    &kp UP_ARROW      &kp GRAVE     &trans             &trans
+&mt LSHFT SPACE  &mt LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans
+&trans           &kp LSHFT         &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans                 &lt 2 ENTER    &trans            &trans        &trans             &trans
+&kp LC(LEFT)     &kp LC(UP)        &kp SPACE  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans                 &trans         &trans
 &trans           &trans
             >;
 
@@ -128,7 +128,7 @@
 &trans    &kp ESC          &kp F2             &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))     &kp PIPE                       &kp LA(LC(D))  &kp LA(LC(E))  &kp LA(LC(F))  &kp LA(LC(T))     &kp LA(LC(G))      &trans
 &trans    &kp TAB          &kp DOUBLE_QUOTES  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp LBKT       &kp RBKT       &kp APOS       &kp LG(LS(DOWN))  &kp LC(LA(ENTER))  &trans
 &trans    &mt LSHIFT HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                      &kp LG(A)      &kp LG(C)      &kp LG(V)      &kp LC(Q)         &kp LG(PLUS)
-&trans    &trans           &kp EQUAL                            &trans                &trans                         &kp DELETE     &trans         &trans         &kp LS(LC(TAB))   &kp LG(MINUS)      &kp LC(TAB)
+&trans    &trans           &kp EQUAL                            &lt 5 SPACE           &trans                         &kp DELETE     &trans         &trans         &kp LS(LC(TAB))   &kp LG(MINUS)      &kp LC(TAB)
 &kp LEFT  &kp UP           &kp SPACE          &kp DOWN          &kp RIGHT                                            &trans         &trans         &trans
 &trans    &trans
             >;
