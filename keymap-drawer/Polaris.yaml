@@ -97,7 +97,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - EQUAL
-  - {type: held}
+  - {t: LANGUAGE 1, h: Fnc, type: held}
   - DELETE
   - ENTER
   - BKSP
@@ -133,7 +133,7 @@ layers:
   - '5'
   - '6'
   - COLON
-  - Gui+RBKT
+  - Gui+RIGHT BRACKET
   - AT SIGN
   - UP ARROW
   - GRAVE
@@ -145,7 +145,7 @@ layers:
   - '2'
   - '3'
   - BSLH
-  - Gui+LBKT
+  - Gui+LEFT BRACKET
   - LEFT
   - DOWN
   - RIGHT
@@ -156,7 +156,7 @@ layers:
   - Gui+Ctl+R
   - Ctl+Sft+S
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ENTER, h: Num, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -324,7 +324,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - EQUAL
-  - {t: ▽, type: trans}
+  - {t: SPACE, h: SCROLL}
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
