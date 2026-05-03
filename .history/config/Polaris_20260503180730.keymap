@@ -49,7 +49,7 @@
             bindings = <
 &kp ESCAPE  &kp Q         &kp W                &kp E          &kp R        &kp T                        &lt SNIPE Y    &kp U          &kp I              &kp O      &kp P           &kp BACKSPACE
 &lt BT TAB  &kp A         &kp S                &kp D          &kp F        &kp G                        &kp H          &kp J          &kp K              &kp L      &kp MINUS       &kp ENTER
-&kp LSHFT   &z_shft LSHIFT Z  &kp X                &kp C          &kp V        &kp B                        &kp N          &kp M          &kp COMMA          &lt 5 DOT  &lt 6 UP_ARROW
+&kp LSHFT   &mt LSHIFT Z  &kp X                &kp C          &kp V        &kp B                        &kp N          &kp M          &kp COMMA          &lt 5 DOT  &lt 6 UP_ARROW
 &kp LCTRL   &kp LALT      &mt LGUI LANGUAGE_2                 &lt 5 SPACE  &lt FUNC LANGUAGE_1          &kp BACKSPACE  &lt NUM ENTER  &lt NUM LG(SPACE)  &kp LEFT   &kp DOWN        &kp RIGHT
 &kp HOME    &kp PAGE_UP   &kp SPACE            &kp PAGE_DOWN  &kp END                                   &mkp MB1       &mkp MB3       &mkp MB2
 &mo SCROLL  &mo SSNIPE
@@ -77,7 +77,7 @@
             bindings = <
 &trans           &kp TAB           &kp N7     &kp N8        &kp N9         &kp MINUS              &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
 &trans           &kp N0            &kp N4     &kp N5        &kp N6         &kp COLON              &kp LG(RIGHT_BRACKET)  &kp AT_SIGN    &kp UP_ARROW      &kp GRAVE     &trans             &trans
-&mt LSHFT SPACE  &z_shft LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans
+&mt LSHFT SPACE  &mt LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans
 &trans           &kp LSHFT         &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans                 &lt 2 ENTER    &trans            &trans        &trans             &trans
 &kp LC(LEFT)     &kp LC(UP)        &kp SPACE  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans                 &trans         &trans
 &trans           &trans
@@ -119,7 +119,7 @@
             bindings = <
 &trans    &kp ESC          &kp F2             &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))     &kp PIPE                       &kp LA(LC(D))  &kp LA(LC(E))  &kp LA(LC(F))  &kp LA(LC(T))     &kp LA(LC(G))      &trans
 &trans    &kp TAB          &kp DOUBLE_QUOTES  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp LBKT       &kp RBKT       &kp APOS       &kp LG(LS(DOWN))  &kp LC(LA(ENTER))  &trans
-&trans    &z_shft LSHIFT HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                      &kp LG(A)      &kp LG(C)      &kp LG(V)      &kp LC(Q)         &kp LG(PLUS)
+&trans    &mt LSHIFT HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                      &kp LG(A)      &kp LG(C)      &kp LG(V)      &kp LC(Q)         &kp LG(PLUS)
 &trans    &trans           &kp EQUAL                            &lt 5 SPACE           &trans                         &kp DELETE     &trans         &trans         &kp LS(LC(TAB))   &kp LG(MINUS)      &kp LC(TAB)
 &kp LEFT  &kp UP           &kp SPACE          &kp DOWN          &kp RIGHT                                            &trans         &trans         &trans
 &trans    &trans
