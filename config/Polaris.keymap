@@ -78,7 +78,7 @@
 &trans           &kp TAB               &kp N7     &kp N8        &kp N9         &kp MINUS              &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
 &trans           &kp N0                &kp N4     &kp N5        &kp N6         &kp COLON              &kp LG(RIGHT_BRACKET)  &kp AT_SIGN    &kp UP_ARROW      &kp GRAVE     &trans             &trans
 &mt LSHFT SPACE  &z_shft LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans
-&trans           &kp LSHFT             &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans                 &trans         &trans            &trans        &trans             &trans
+&trans           &kp LSHFT             &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans                 &trans         &kp LGUI          &trans        &trans             &trans
 &kp LC(LEFT)     &kp LC(UP)            &kp SPACE  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans                 &trans         &trans
 &trans           &trans
             >;
