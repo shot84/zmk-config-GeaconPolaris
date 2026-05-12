@@ -157,7 +157,7 @@ layers:
   - Ctl+Sft+S
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
