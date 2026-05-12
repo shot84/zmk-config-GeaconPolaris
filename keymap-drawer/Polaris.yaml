@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - COMMA
-  - {t: DOT, h: SCROLL}
+  - {t: DOT, h: SSNIPE}
   - {t: UP ARROW, h: SSNIPE}
   - LCTRL
   - LALT
@@ -53,7 +53,7 @@ layers:
   - PAGE DOWN
   - END
   - '&mkp MB1'
-  - '&mkp MB3'
+  - ENTER
   - '&mkp MB2'
   - SCROLL
   - SSNIPE
@@ -97,7 +97,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - EQUAL
-  - {t: LANGUAGE 1, h: Fnc, type: held}
+  - {type: held}
   - DELETE
   - ENTER
   - BKSP
@@ -156,7 +156,7 @@ layers:
   - Gui+Ctl+R
   - Ctl+Sft+S
   - {t: ▽, type: trans}
-  - {t: ENTER, h: Num, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,12 +319,12 @@ layers:
   - Gui+A
   - Gui+C
   - Gui+V
-  - {t: Ctl+Q, type: held}
+  - Ctl+Q
   - Gui+PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - EQUAL
-  - {t: SPACE, h: SCROLL}
+  - {type: held}
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
@@ -376,8 +376,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
