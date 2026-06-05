@@ -73,7 +73,8 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackpad_split>;
-        input-processors = <&zip_xy_scaler 1 24>,
+        input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+                           <&zip_xy_scaler 1 24>,
                            <&zip_scroll_scaler 1 40>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
