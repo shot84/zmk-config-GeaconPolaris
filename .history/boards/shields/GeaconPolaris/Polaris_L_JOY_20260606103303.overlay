@@ -11,7 +11,7 @@
         report-interval-ms = <8>;
         x-ch {
             label = "X Axis";
-            io-channels = <&adc 2>;
+            io-channels = <&adc 3>;
             mv-mid = <1600>;
             mv-min-max = <1600>;
             mv-deadzone = <88>;
@@ -78,6 +78,4 @@
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
         xy-to-scroll-enabled;
-        rotation-degrees = <90>;
-        scale-divisor = <2>;
 };

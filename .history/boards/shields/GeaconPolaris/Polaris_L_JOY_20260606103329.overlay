@@ -78,6 +78,4 @@
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
         xy-to-scroll-enabled;
-        rotation-degrees = <90>;
-        scale-divisor = <2>;
 };
