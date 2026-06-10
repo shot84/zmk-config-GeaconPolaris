@@ -22,7 +22,7 @@ include:
     artifact-name: Polaris_L_MODULE_TPD
 
   - board: seeeduino_xiao_ble
-    shield: Polaris_L_Base Polaris_L_KEY rgbled_adapter nice_oled
+    shield: Polaris_L_Base P rgbled_adapter nice_oled
     snippet: KEY_L zmk-usb-logging studio-rpc-usb-uart
     artifact-name: Polaris_L_MODULE_KEY
 

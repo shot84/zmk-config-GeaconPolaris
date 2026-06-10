@@ -89,7 +89,7 @@
 &trans             &trans  &trans     &trans            &trans             &kp BACKSLASH             &kp LESS_THAN     &kp GREATER_THAN   &kp LG(LS(D))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))
 &trans             &trans  &kp LALT                     &kp EQUAL          &lt 1 LANGUAGE_1          &kp DELETE        &kp ENTER          &kp BKSP       &trans                &trans          &trans
 &kp LEFT           &kp UP  &kp SPACE  &kp DOWN          &kp RIGHT                                    &trans            &trans             &trans
-&trans             &trans  &trans
+&trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -103,7 +103,7 @@
 &mt LSHFT SPACE  &z_shft LSHIFT SLASH  &kp N1     &kp N2        &kp N3         &kp BSLH               &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans
 &trans           &kp LSHFT         &kp LALT                 &kp LG(LC(R))  &kp LC(LS(S))          &trans                 &lt 2 ENTER    &trans            &trans        &trans             &trans
 &kp LC(LEFT)     &kp LC(UP)        &kp SPACE  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans                 &trans         &trans
-&trans           &trans  &trans
+&trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -117,7 +117,7 @@
 &trans    &trans  &trans     &trans    &trans     &trans          &trans  &trans  &trans  &trans  &trans
 &trans    &trans  &trans               &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                  &trans  &trans  &trans
-&trans    &trans  &trans
+&trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -131,7 +131,7 @@
 &trans      &trans        &trans        &trans        &trans        &trans                &trans          &trans  &trans  &trans  &trans
 &trans      &trans        &trans                      &trans        &trans                &trans          &trans  &trans  &trans  &trans  &trans
 &kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                           &trans          &trans  &trans
-&trans      &trans  &trans
+&trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -145,7 +145,7 @@
 &trans    &z_shft LSHIFT HASH  &kp PLUS           &kp EXCLAMATION   &kp QUESTION          &kp TILDE                      &kp LG(A)      &kp LG(C)      &kp LG(V)      &kp LC(Q)         &kp LG(PLUS)
 &trans    &trans           &kp EQUAL                            &lt 5 SPACE           &trans                         &kp DELETE     &trans         &trans         &kp LS(LC(TAB))   &kp LG(MINUS)      &kp LC(TAB)
 &kp LEFT  &kp UP           &kp SPACE          &kp DOWN          &kp RIGHT                                            &trans         &trans         &trans
-&trans    &trans  &trans
+&trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -159,7 +159,7 @@
 &trans    &trans  &trans     &trans    &trans             &trans                         &trans  &trans  &trans  &trans  &trans
 &trans    &trans  &trans               &trans             &trans                         &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                                         &trans  &trans  &trans
-&trans    &trans  &trans
+&trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
