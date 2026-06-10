@@ -195,8 +195,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-37 " transform="translate(135.56 228.405) rotate(7 58.76 22.88)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">LANG2</text>
-<text class="hold" x="26" y="37">LGUI</text>
+<text class="tap" x="26" y="26">LSHFT</text>
 </g>
 <g class="key keypos-38 " transform="translate(303 246.605) rotate(0 -234 -247)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -282,19 +281,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <text class="tap" x="26" y="20">LANG2</text>
 <text class="hold" x="26" y="37">LGUI</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-function_layer" transform="translate(0 396.605)">
@@ -544,19 +571,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-num_layer" transform="translate(0 793.21)">
@@ -808,19 +863,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-snipe_layer" transform="translate(0 1189.814)">
@@ -1069,19 +1152,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-bt_layer" transform="translate(0 1586.419)">
@@ -1337,19 +1448,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-scroll_layer" transform="translate(0 1983.024)">
@@ -1600,19 +1739,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 <g class="layer layer-SSNIPE_layer" transform="translate(0 2379.629)">
@@ -1861,19 +2028,47 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="combo combo-COMBO_LANG1">
+<g class="combo combo-t">
+<polyline points="341.48,117.645 289.48,111.925"/>
+<circle class="combo-dot" cx="341.48" cy="117.645" r="3.2"/>
+<circle class="combo-dot" cx="289.48" cy="111.925" r="3.2"/>
+<rect class="combo-label-bg" x="292.98" y="90.925" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="315.48" y="98.925">LG(T)</text>
+</g>
+<g class="combo combo-n">
+<polyline points="654.52,220.605 706.52,213.845"/>
+<circle class="combo-dot" cx="654.52" cy="220.605" r="3.2"/>
+<circle class="combo-dot" cx="706.52" cy="213.845" r="3.2"/>
+<rect class="combo-label-bg" x="658.02" y="192.845" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="680.52" y="200.845">LG(N)</text>
+</g>
+<g class="combo combo-u">
+<polyline points="615,118.685 667.52,115.565"/>
+<circle class="combo-dot" cx="615" cy="118.685" r="3.2"/>
+<circle class="combo-dot" cx="667.52" cy="115.565" r="3.2"/>
+<rect class="combo-label-bg" x="606.36" y="94.565" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="641.26" y="102.565">LA(LG(U))</text>
+</g>
+<g class="combo combo-v">
+<polyline points="381,223.205 328.48,220.605"/>
+<circle class="combo-dot" cx="381" cy="223.205" r="3.2"/>
+<circle class="combo-dot" cx="328.48" cy="220.605" r="3.2"/>
+<rect class="combo-label-bg" x="319.84" y="199.605" width="69.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="354.74" y="207.605">LG(LS(V))</text>
+</g>
+<g class="combo combo-w">
 <polyline points="134,90.605 186.52,94.245"/>
 <circle class="combo-dot" cx="134" cy="90.605" r="3.2"/>
 <circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
 <rect class="combo-label-bg" x="137.76" y="69.605" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="160.26" y="77.605">LANG1</text>
+<text class="combo-label" x="160.26" y="77.605">LG(W)</text>
 </g>
-<g class="combo combo-COMBO_LANG2">
-<polyline points="186.52,94.245 238,102.045"/>
-<circle class="combo-dot" cx="186.52" cy="94.245" r="3.2"/>
-<circle class="combo-dot" cx="238" cy="102.045" r="3.2"/>
-<rect class="combo-label-bg" x="189.76" y="73.245" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="212.26" y="81.245">LANG2</text>
+<g class="combo combo-g">
+<polyline points="355,170.685 302.48,166.005"/>
+<circle class="combo-dot" cx="355" cy="170.685" r="3.2"/>
+<circle class="combo-dot" cx="302.48" cy="166.005" r="3.2"/>
+<rect class="combo-label-bg" x="306.24" y="145.005" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="328.74" y="153.005">LG(F)</text>
 </g>
 </g>
 </svg>
