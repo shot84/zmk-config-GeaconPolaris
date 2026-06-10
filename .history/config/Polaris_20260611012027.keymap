@@ -53,34 +53,14 @@
     combos {
         compatible = "zmk,combos";
 
-        cmd+t {
-            bindings = <&kp LG(T)>;
-            key-positions = <5 4>;
-        };
-
-        cmd+n {
-            bindings = <&kp LG(N)>;
-            key-positions = <30 31>;
-        };
-
-        cmd+option+u {
-            bindings = <&kp LA(LG(U))>;
-            key-positions = <6 7>;
-        };
-
-        cmd+shift+v {
-            bindings = <&kp LG(LS(V))>;
-            key-positions = <29 28>;
-        };
-
-        cmd+w {
-            bindings = <&kp LG(W)>;
+        COMBO_LANG1 {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <1 2>;
         };
 
-        cmd+g {
-            bindings = <&kp LG(F)>;
-            key-positions = <17 16>;
+        COMBO_LANG2 {
+            bindings = <&kp LANG2>;
+            key-positions = <2 3>;
         };
     };
 
@@ -93,7 +73,7 @@
 &kp ESCAPE  &kp Q         &kp W                &kp E          &kp R        &kp T                        &lt SNIPE Y    &kp U          &kp I              &kp O      &kp P           &kp BACKSPACE
 &lt BT TAB  &kp A         &kp S                &kp D          &kp F        &kp G                        &kp H          &kp J          &kp K              &kp L      &kp MINUS       &kp ENTER
 &kp LSHFT   &z_shft LSHIFT Z  &kp X                &kp C          &kp V        &kp B                        &kp N          &kp M          &kp COMMA          &lt 5 DOT  &lt 6 UP_ARROW
-&kp LCTRL   &kp LALT      &kp LSHFT                 &lt 5 SPACE  &lt FUNC LANGUAGE_1          &kp BACKSPACE  &lt NUM ENTER  &lt NUM LG(SPACE)  &kp LEFT   &kp DOWN        &kp RIGHT
+&kp LCTRL   &kp LALT      &kp                  &lt 5 SPACE  &lt FUNC LANGUAGE_1          &kp BACKSPACE  &lt NUM ENTER  &lt NUM LG(SPACE)  &kp LEFT   &kp DOWN        &kp RIGHT
 &kp HOME    &kp PAGE_UP   &kp SPACE            &kp PAGE_DOWN  &kp END                                   &mkp MB1       &mkp MB3       &mkp MB2
 &mo SCROLL  &mo SSNIPE  &mt LGUI LANGUAGE_2
             >;
