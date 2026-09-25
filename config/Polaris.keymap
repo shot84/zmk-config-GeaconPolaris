@@ -13,6 +13,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
         rsr_vol: rsr_vol {
@@ -49,6 +50,12 @@
 #define SCROLL 5
 #define SSNIPE 6
 
+// 打鍵の直後（150ms以内）に押した &lt は、押した瞬間にタップとして確定する（2026-09-25）。
+// 既定だと離すまで出力が保留され、その間に押した次のキーも待たされる＝タイピングのもっさり感
+&lt {
+    require-prior-idle-ms = <150>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -56,31 +63,37 @@
         cmd+t {
             bindings = <&kp LG(T)>;
             key-positions = <5 4>;
+            require-prior-idle-ms = <150>;
         };
 
         cmd+n {
             bindings = <&kp LG(N)>;
             key-positions = <30 31>;
+            require-prior-idle-ms = <150>;
         };
 
         cmd+option+u {
             bindings = <&kp LA(LG(U))>;
             key-positions = <6 7>;
+            require-prior-idle-ms = <150>;
         };
 
         cmd+shift+v {
             bindings = <&kp LG(LS(V))>;
             key-positions = <29 28>;
+            require-prior-idle-ms = <150>;
         };
 
         cmd+w {
             bindings = <&kp LG(W)>;
             key-positions = <1 2>;
+            require-prior-idle-ms = <150>;
         };
 
         cmd+g {
             bindings = <&kp LG(F)>;
             key-positions = <17 16>;
+            require-prior-idle-ms = <150>;
         };
     };
 
