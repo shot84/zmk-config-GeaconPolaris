@@ -109,4 +109,7 @@
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
         xy-to-scroll-enabled;
+        // 縦スクロールの向きを反転（2026-09-25・横は意図どおり）。反転は XY→WHEEL の写しの後、
+        // 元のY軸にだけ掛かる。DYA の ScrR の「Y反転」の初期値としても見える
+        y-invert;
 };
