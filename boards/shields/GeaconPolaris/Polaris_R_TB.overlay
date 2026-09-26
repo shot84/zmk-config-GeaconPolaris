@@ -1,3 +1,5 @@
+#include <input/processors/report_rate_limit.dtsi>
+
 / {
     split_inputs {
         #address-cells = <1>;
@@ -8,6 +10,9 @@
             status = "okay";
             device = <&trackball>;
             reg = <0>;
+            // 2026-09-26: 無線のときだけTBが遅れる件。センサは2〜4msごとに動きを出すが、左→Macは15ms間隔で
+            //   1回に数件しか送れない＝レポートが溜まって遅れる。16ms以内の動きは足し合わせて1回で送る（量は失わない）
+            input-processors = <&zip_report_rate_limit 16>;
         };
     };
 
