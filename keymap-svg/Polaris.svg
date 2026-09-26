@@ -24,7 +24,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <title>Polaris</title>
 <g class="layer layer-default_layer" transform="translate(0 0)">
 <text class="title" x="30" y="10">Def</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -255,12 +255,11 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-51 " transform="translate(524 194.605) rotate(0 -598 -195)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">MB1</text>
-<text class="hold" x="26" y="37">MOUSE</text>
+<text class="tap" x="26" y="26">LS(LG(R))</text>
 </g>
 <g class="key keypos-52 " transform="translate(498 246.605) rotate(0 -546 -247)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">MB3</text>
+<text class="tap" x="26" y="20">MB1</text>
 <text class="hold" x="26" y="37">MOUSE</text>
 </g>
 <g class="key keypos-53 " transform="translate(550 246.605) rotate(0 -598 -247)">
@@ -278,8 +277,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">LANG2</text>
-<text class="hold" x="26" y="37">LGUI</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -326,7 +325,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-function_layer" transform="translate(0 396.605)">
 <text class="title" x="30" y="10">Fnc</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -567,9 +566,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="26" rx="6" ry="6"/>
 <text class="tap" x="26" y="13">TRANS</text>
 </g>
-<g class="key keypos-56 transparent" transform="translate(212 246.605) rotate(0 -182 -234)">
+<g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -616,7 +616,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-num_layer" transform="translate(0 793.21)">
 <text class="title" x="30" y="10">Num</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -859,9 +859,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="26" rx="6" ry="6"/>
 <text class="tap" x="26" y="13">TRANS</text>
 </g>
-<g class="key keypos-56 transparent" transform="translate(212 246.605) rotate(0 -182 -234)">
+<g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -908,7 +909,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-snipe_layer" transform="translate(0 1189.814)">
 <text class="title" x="30" y="10">Snipe</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -1148,9 +1149,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="26" rx="6" ry="6"/>
 <text class="tap" x="26" y="13">TRANS</text>
 </g>
-<g class="key keypos-56 transparent" transform="translate(212 246.605) rotate(0 -182 -234)">
+<g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -1197,7 +1199,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-bt_layer" transform="translate(0 1586.419)">
 <text class="title" x="30" y="10">BT</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -1444,9 +1446,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="26" rx="6" ry="6"/>
 <text class="tap" x="26" y="13">TRANS</text>
 </g>
-<g class="key keypos-56 transparent" transform="translate(212 246.605) rotate(0 -182 -234)">
+<g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -1493,7 +1496,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-scroll_layer" transform="translate(0 1983.024)">
 <text class="title" x="30" y="10">SCROLL</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -1737,7 +1740,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">=</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
@@ -1784,7 +1788,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="layer layer-SSNIPE_layer" transform="translate(0 2379.629)">
 <text class="title" x="30" y="10">SSNIPE</text>
-<text class="subtitle" x="30" y="28">57 bindings</text>
+<text class="subtitle" x="30" y="28">56 bindings</text>
 <g class="module module-analog-stick modulepos-0" transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="10" ry="10"/>
 <text class="module-label" x="26" y="20">Analog Stick</text>
@@ -2024,9 +2028,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="26" rx="6" ry="6"/>
 <text class="tap" x="26" y="13">TRANS</text>
 </g>
-<g class="key keypos-56 transparent" transform="translate(212 246.605) rotate(0 -182 -234)">
+<g class="key keypos-56 " transform="translate(212 246.605) rotate(0 -182 -234)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">56</text>
+<text class="matrix" x="26" y="36">r8 c2</text>
 </g>
 <g class="combo combo-t">
 <polyline points="341.48,117.645 289.48,111.925"/>
